@@ -8,7 +8,8 @@
 name: Java CI with Gradle
 
 on:
-  push:
+  #push 시 적용 / pull request 시 적용 옵션 추가 가능
+  push: 
     branches: [ main ]
 
 permissions:
